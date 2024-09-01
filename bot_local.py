@@ -54,7 +54,7 @@ def send_about(message):
         temp = Template(content)
         about = temp.substitute(
             STUDENT_NAME = "Salma Alifia Shafira - Zeus Night",
-            GITHUB_REPO_LINK = "https://github.com/test123"
+            GITHUB_REPO_LINK = "https://github.com/salmalifias/capstonetelebot"
         )
 
     bot.send_message(
